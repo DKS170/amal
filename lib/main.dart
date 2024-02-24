@@ -1,4 +1,4 @@
-import 'package:amal/people_card.dart';
+import 'package:amal/intro_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: PersonCard(),
+          child: IntroScreen(),
         ),
       ),
     );
